@@ -1,6 +1,10 @@
   body {
-    background-color: rgb(105, 193, 127);
-    background: linear-gradient(rgb(105, 193, 127), rgb(85, 180, 109));
+    background: linear-gradient(to bottom right ,rgb(105, 193, 127), rgb(66, 126, 82)); /* Standard syntax */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
   }
 
   h1 {
@@ -14,6 +18,7 @@
   li a {
     color: white;
   }
+
 
   .nav {
       padding: 14px 24px;
@@ -33,3 +38,16 @@
   .navbar-btn:active, .navbar-btn.active {
   	box-shadow: none;
   }
+
+  .footer {
+  bottom: 0;
+  color: black;
+  background-color: rgb(92, 207, 121);
+  height: 2em;
+  left: 0;
+  right: 0;
+  position: fixed;
+  font-size: small;
+  width:100%;
+  text-align: center;
+}
