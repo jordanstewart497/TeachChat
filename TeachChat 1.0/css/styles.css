@@ -1,5 +1,6 @@
   body {
     background-color: rgb(105, 193, 127);
+    background: linear-gradient(rgb(105, 193, 127), rgb(85, 180, 109));
   }
 
   h1 {
@@ -12,4 +13,23 @@
 
   li a {
     color: white;
+  }
+
+  .nav {
+      padding: 14px 24px;
+      border: 0 none;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+  }
+
+  .nav:focus, .nav:active:focus, .nav.active:focus {
+      outline: 0 none;
+  }
+
+
+
+  .navbar-btn:active, .navbar-btn.active {
+  	box-shadow: none;
   }
