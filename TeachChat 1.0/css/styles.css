@@ -13,3 +13,16 @@
   li a {
     color: white;
   }
+
+  .footer {
+  bottom: 0;
+  color: black;
+  background-color: rgb(38, 193, 77);
+  height: 2em;
+  left: 0;
+  right: 0;
+  position: fixed;
+  font-size: small;
+  width:100%;
+  text-align: center;
+}
