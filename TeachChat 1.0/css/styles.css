@@ -49,3 +49,17 @@
   width:100%;
   text-align: center;
 }
+
+#Logo  {
+  position: absolute;
+    left:100px;
+
+    top: 0px;
+    z-index: -1;
+}
+
+#left_logo {
+  
+
+
+}
