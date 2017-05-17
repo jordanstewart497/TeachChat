@@ -1,22 +1,19 @@
   body {
-    background: linear-gradient(to bottom right ,rgb(105, 193, 127), rgb(66, 126, 82)); /* Standard syntax */
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+      background: linear-gradient(to bottom right, rgb(105, 193, 127), rgb(66, 126, 82));
+      /* Standard syntax */
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
   }
 
   h1 {
-    color: white;
-
+      color: white;
   }
-
 
   li a {
-    color: white;
+      color: white;
   }
-
 
   .nav {
       padding: 14px 24px;
@@ -24,66 +21,59 @@
       font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
-
   }
 
   .nav:focus, .nav:active:focus, .nav.active:focus {
       outline: 0 none;
   }
 
-
-
   .navbar-btn:active, .navbar-btn.active {
-  	box-shadow: none;
+      box-shadow: none;
   }
 
   .footer {
-  bottom: 0;
-  color: black;
-  background-color: rgb(92, 207, 121);
-  height: 2em;
-  left: 0;
-  right: 0;
-  position: fixed;
-  font-size: small;
-  width:100%;
-  text-align: center;
-}
+      bottom: 0;
+      color: black;
+      background-color: rgb(92, 207, 121);
+      height: 2em;
+      left: 0;
+      right: 0;
+      position: fixed;
+      font-size: small;
+      width: 100%;
+      text-align: center;
+  }
 
-#Logo  {
-  position: absolute;
-    left:100px;
+  #Logo {
+      position: absolute;
+      left: 100px;
+      top: 0px;
+      z-index: -1;
+  }
 
-    top: 0px;
-    z-index: -1;
-}
+  button {
+      border: none;
+      border-radius: 5px;
+      color: white;
+      text-shadow: black 4px 4px 3px display: inline;
+      font-size: 20px;
+      background-color: rgb(90, 183, 100);
+      text-decoration: none;
+      box-shadow: green 5px 5px 5px;
+  }
 
-button{
-   border: none;
-   border-radius: 5px;
-   color: white;
-   text-shadow: black 4px 4px 3px
-   display: inline;
-   font-size: 20px;
-   background-color: rgb(90, 183, 100);
-   text-decoration: none;
-   box-shadow: green 5px 5px 5px;
- }
+  #background {
+      color: white;
+  }
 
+  #back {
+      background-image: url(img/hand_holding_phone2.png);
+  }
 
-#background {
-  color: white;
-}
+  #text_about {
+      color: white;
+  }
 
-#back {
-  background-image: url(img/hand_holding_phone2.png);
-
-}
-
-#text_about {
-  color: white;
-}
-
-#text_about h4 {
-  color: darkwhite;
-}
+  #text_about h4 {
+      color: darkwhite;
+  }
