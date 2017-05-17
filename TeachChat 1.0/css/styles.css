@@ -79,3 +79,11 @@ button{
   background-image: url(img/hand_holding_phone2.png);
 
 }
+
+#text_about {
+  color: white;
+}
+
+#text_about h4 {
+  color: darkwhite;
+}
