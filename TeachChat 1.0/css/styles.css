@@ -11,12 +11,27 @@
     color: white;
 
   }
+  h3{
+    color: white;
+    font-size: 30px;
+  }
+#head h3{
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+  }
+
 
 
   li a {
     color: white;
+
   }
 
+#head p{
+  color: white;
+  font-size: 20px;
+}
 
   .nav {
       padding: 14px 24px;
@@ -71,11 +86,26 @@ button{
  }
 
 
-#background {
-  color: white;
-}
+/*#background {
+  background-image: url(../img/hand_holding_phone2.png);
+  background-repeat: no-repeat;
+  background-size: 2000px 1600px;
+}*/
 
 #back {
-  background-image: url(img/hand_holding_phone2.png);
+  background-image: url(../img/hand_holding_phone2.png);
+  border-radius: 50px 50px;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 1100px;
+}
+#grien{
+  padding-left: 90px;
+}
 
+#grien #dlbutton a{
+  padding-left: 40px;
+}
+.marketing{
+margin-left: 20px;
 }
