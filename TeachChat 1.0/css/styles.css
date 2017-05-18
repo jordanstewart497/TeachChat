@@ -22,9 +22,14 @@
 
 
   li a {
-<<<<<<< HEAD
     color: white;
+  }
 
+  ul li{
+    color: white;
+  }
+  p{
+    color white;
   }
 
 #head p{
@@ -32,11 +37,21 @@
   font-size: 20px;
 }
 
-=======
-      color: white;
-  }
+.jumbotron{
+  background-color: #336a41;
+}
 
->>>>>>> 81c7852bcc50af7670ac609313f331cdeb5a24b4
+.jumbotron h1 {
+    color: white;
+}
+.jumbotron #para p {
+    color: white;
+}
+
+.jumbotron #para a {
+    color: white;
+}
+
   .nav {
       padding: 14px 24px;
       border: 0 none;
@@ -51,6 +66,10 @@
 
   .navbar-btn:active, .navbar-btn.active {
       box-shadow: none;
+  }
+
+  #carousel-example-generic{
+
   }
 
   .footer {
@@ -84,22 +103,35 @@
       box-shadow: green 5px 5px 5px;
   }
 
-  #background {
-      color: white;
-  }
+table tr td{
+  color: white;
+}
 
-<<<<<<< HEAD
-/*#background {
-  background-image: url(../img/hand_holding_phone2.png);
-  background-repeat: no-repeat;
-  background-size: 2000px 1600px;
-}*/
+fieldset tr td{
+  color: white;
+}
+
+fieldset legend{
+  color: white;
+}
+
 
 #back {
   background-image: url(../img/hand_holding_phone2.png);
   border-radius: 50px 50px;
   background-repeat: no-repeat;
   height: 400px;
+  width: 1100px;
+}
+#back2 {
+  background-image: url(../img/widescreenImage2.png);
+  border-radius: 50px 50px;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 1100px;
+}
+
+#back3 {
   width: 1100px;
 }
 #grien{
@@ -112,10 +144,7 @@
 .marketing{
 margin-left: 20px;
 }
-=======
-  #back {
-      background-image: url(img/hand_holding_phone2.png);
-  }
+
 
   #text_about {
       color: white;
