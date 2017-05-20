@@ -1,3 +1,5 @@
+
+/*universal changes to all file listed below*/
   body {
       background: linear-gradient(to bottom right, rgb(105, 193, 127), rgb(66, 126, 82));
       /* Standard syntax */
@@ -22,12 +24,14 @@
   address{
     color: white;
   }
+  /*changes the code in the id head*/
 #head h3{
     padding-top: 80px;
     color: white;
     font-size: 30px;
   }
 
+/*more universal changes to the code*/
 
   li a {
     color: white;
@@ -40,11 +44,13 @@
     color white;
   }
 
+  /* more changes the code in the id head*/
 #head p{
   color: white;
   font-size: 20px;
 }
 
+/*changes to the jumbotron below*/
 .jumbotron{
   background-color: #336a41;
   border-radius: 50px 50px;
@@ -61,6 +67,7 @@
     color: white;
 }
 
+/*changes code to the nav id*/
   .nav {
       padding: 14px 24px;
       border: 0 none;
@@ -81,6 +88,7 @@
 
   }
 
+/*footer changes*/
   .footer {
       bottom: 0;
       color: black;
@@ -93,7 +101,7 @@
       width: 100%;
       text-align: center;
   }
-
+/*changes to the logo id*/
   #Logo {
       position: absolute;
       left: 100px;
@@ -101,6 +109,7 @@
       z-index: -1;
   }
 
+/*changes to the buttons of the code*/
   button {
       border: none;
       border-radius: 5px;
@@ -112,10 +121,12 @@
       box-shadow: green 5px 5px 5px;
   }
 
+/*changes the table */
 table tr td{
   color: white;
 }
 
+/*changes the fieldset of the code*/
 fieldset tr td{
   color: white;
 }
@@ -124,7 +135,7 @@ fieldset legend{
   color: white;
 }
 
-
+  /*back id changes*/
 #back {
   background-image: url(../img/hand_holding_phone2.png);
   border-radius: 50px 50px;
